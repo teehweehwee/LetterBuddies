@@ -1,0 +1,10 @@
+gmhl game rules:
+1. There are 4 categories for you to choose from, click on the one you have mentally chosen
+2. You’ll be assigned a random word based on the selected category and the underscores represent the letters you have to guess hoho
+3. Insert ur input by clicking on the letters on the keyboard i coded ;) one letter = one guess even 4. if you click twice of the same letter dont worry you wont be penalised/it won't use up your tries however you’re ONLY allowed 5 wrong guesses
+5. If you click the right letter yay, you will see the letter display on the corresponding underscore
+6. If you click the wrong letter boo, you will see your remaining guesses go down by 1
+this will go on until you get the word (or dont get the word ;0) )
+7. If you guess the word correctly, perfecto smartiepants but no prize
+8. If you guess the word wrongly, boo you’ll receive a surprise :smiling_imp:
+9. At any point you wanna give up (plz dont) or you wanna reset the game click ctrl+r lor because gm never code initialise game

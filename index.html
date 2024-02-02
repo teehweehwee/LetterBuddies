@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Silkscreen:wght@400;700&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=VT323&display=swap" rel="stylesheet">
+    <title>Letter Buddies</title>
+  </head>
+  <body>
+    <!-- Transparency Overlay -->
+    <div id="transparencyOverlay" style="display: none">
+      <div id="transparencyContent">
+        <h2>HOW TO PLAY???</h2>
+        <ul>
+          <li>1. Pick a category from the four options</li>
+          <li>2. You'll receive a randomly assigned word, represented by underscores for each letter</li>
+          <li>3. Start guessing by clicking letters on the keyboard</li>
+          <li>4. Each letter click counts as one guess, and you can click the same letter multiple times without penalty</li>
+          <li>5. Be cautious; you have a limit of 5 incorrect guesses, a wrong guess reduces your remaining attempts</li>
+          <li>6. Continue guessing until you either complete the word or exhaust your allowed guesses</li>
+          <li>P.S Winning or losing brings its own surprises!</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="lobbyPage">
+      <button id="startButton" onclick="startGame()"></button>
+      <button
+        id="rulesButton"
+        onmouseover="showTransparencyOverlay()"
+        onmouseout="hideTransparencyOverlay()"
+      ></button>
+    </div>
+
+    <!-- Categories Buttons -->
+    <div id="categoriesPage">
+      <button id="colours" class="categories"></button>
+      <button id="fruits" class="categories"></button>
+      <button id="vegetables" class="categories"></button>
+      <button id="flowers" class="categories"></button>
+    </div>
+    
+    <!-- Gameplay Page -->
+
+    <div id="gameplaypage">
+      <p id="word-display">
+      </p>
+      <div id="button-container"></div>
+      <p class="remainingGuessesLogo"> REMAINING GUESSES:<span id="remainingGuesses"></span>
+      </div></p>
+    
+    </div>
+
+    <!-- Win Page  -->
+    <div id="winMessage">
+    </div>
+
+    <!-- Lose Page  -->
+    <div id="loseMessage">
+    </div>
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/wordbank.js"></script>
+  </body>
+</html>
