@@ -63,5 +63,5 @@ The code consist of the following components:
 - Allow the player to restart the game without refreshing AKA Game Reset 
 - Create more categories & larger wordbank
 - Instead of hardcoding number of tries, the difficulty can be based on the random word AKA Using word length
-- On top of remaining guesses -1, act graphics to enhance user experience when guessing the wrong letter
+- On top of remaining guesses -1, add graphics to enhance user experience when guessing the wrong letter
 - MY FAVOURITE OUT OF ALL: audio 🎧
