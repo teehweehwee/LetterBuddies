@@ -1,5 +1,5 @@
 # LetterBuddies 🕺🏻
-🙌🏻 Welcome to "Letter Buddies" – a word-guessing game AKA hangman! 🎮 <br> 
+🙌🏻 Welcome to "Letter Buddies" – a word-guessing game AKA hangman without the man! 🎮 <br> 
 *(p.s. this is actually just hangman, but to make it seem like i've done a lot, this is called letter buddies)* 
 
 Choose from four lame categories, each holding a secret word for you to unravel.  You've got 5 chances to crack the code. Make every click count!
